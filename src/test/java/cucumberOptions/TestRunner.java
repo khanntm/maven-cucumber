@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		plugin = {"pretty","html:target/site/cucumber-report-default","json:target/site/cucumber.json"},
 		snippets = SnippetType.CAMELCASE,
-		tags = {" @datatable_step"})
+		tags = {"@no_para"})
 
 public class TestRunner {
 
